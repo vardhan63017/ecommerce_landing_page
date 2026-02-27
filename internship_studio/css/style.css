@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.list {
+  margin-left: 30%;
+}
+.carousel-inner img {
+  max-height: 500px;
+  object-fit: cover;
+}
+.shop_by_category {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card:hover:not(.features .card) {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+.latest_product {
+  display: flex;
+  gap: 10px;
+}
